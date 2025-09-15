@@ -1,3 +1,5 @@
+import markerIcon from "../assets/marker.png"
+
 export default function Entry(props) {
   console.log(props)
 
@@ -12,7 +14,7 @@ export default function Entry(props) {
       </div>
       <div className="journal-entry-info">
         <img
-          src="./src/assets/marker.png"
+          src={markerIcon}
           alt="Marker icon"
           className="marker"
         />
